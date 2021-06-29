@@ -4,7 +4,7 @@ WinGetTitle, Title, A
 WinClose A
 return
 
-; Open Terminus with Alt+Enter
+; Open Windows Terminal with Alt+Enter
 !Enter::
-Run C:\Users\bilg\AppData\Local\Programs\Terminus\Terminus.exe
+Run wt
 return
